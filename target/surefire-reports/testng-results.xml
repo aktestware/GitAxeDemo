@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T17:13:05 EDT" name="Suite" finished-at="2025-08-26T17:13:13 EDT" duration-ms="8219">
+    <groups>
+    </groups>
+    <test started-at="2025-08-26T17:13:05 EDT" name="Test" finished-at="2025-08-26T17:13:13 EDT" duration-ms="8219">
+      <class name="axeFirst.tests.Agile1TechPortalCareerBtnTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechPortalCareerBtnTest@74f0ea28]" started-at="2025-08-26T17:13:11 EDT" name="setUp" finished-at="2025-08-26T17:13:11 EDT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechElementButton()[pri:0, instance:axeFirst.tests.Agile1TechPortalCareerBtnTest@74f0ea28]" started-at="2025-08-26T17:13:11 EDT" name="testResultsOnAgile1TechElementButton" finished-at="2025-08-26T17:13:13 EDT" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechElementButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechPortalCareerBtnTest@74f0ea28]" started-at="2025-08-26T17:13:13 EDT" name="tearDown" finished-at="2025-08-26T17:13:13 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- axeFirst.tests.Agile1TechPortalCareerBtnTest -->
+      <class name="axeFirst.tests.Agile1TechTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@6b81ce95]" started-at="2025-08-26T17:13:05 EDT" name="setUp" finished-at="2025-08-26T17:13:07 EDT" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechTitle(java.lang.String,java.lang.String)[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@6b81ce95]" started-at="2025-08-26T17:13:07 EDT" name="testResultsOnAgile1TechTitle" data-provider="getData" finished-at="2025-08-26T17:13:08 EDT" duration-ms="818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.agile1tech.com/career]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YahooTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@6b81ce95]" started-at="2025-08-26T17:13:08 EDT" name="tearDown" finished-at="2025-08-26T17:13:08 EDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@6b81ce95]" started-at="2025-08-26T17:13:08 EDT" name="setUp" finished-at="2025-08-26T17:13:09 EDT" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechTitle(java.lang.String,java.lang.String)[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@6b81ce95]" started-at="2025-08-26T17:13:09 EDT" name="testResultsOnAgile1TechTitle" data-provider="getData" finished-at="2025-08-26T17:13:10 EDT" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.agile1tech.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Agile1TechCorporateTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@6b81ce95]" started-at="2025-08-26T17:13:10 EDT" name="tearDown" finished-at="2025-08-26T17:13:11 EDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- axeFirst.tests.Agile1TechTitleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

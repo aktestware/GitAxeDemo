@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[#AXE.report(violations)]]>
+    </line>
+    <line>
+      <![CDATA[#AXE.report(violations)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-23T10:17:15 EDT" name="Suite" finished-at="2025-07-23T10:17:27 EDT" duration-ms="11692">
+    <groups>
+    </groups>
+    <test started-at="2025-07-23T10:17:15 EDT" name="Test" finished-at="2025-07-23T10:17:27 EDT" duration-ms="11692">
+      <class name="axeFirst.tests.Agile1TechPortalCareerBtnTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechPortalCareerBtnTest@2925bf5b]" started-at="2025-07-23T10:17:23 EDT" name="setUp" finished-at="2025-07-23T10:17:24 EDT" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechElementButton()[pri:0, instance:axeFirst.tests.Agile1TechPortalCareerBtnTest@2925bf5b]" started-at="2025-07-23T10:17:24 EDT" name="testResultsOnAgile1TechElementButton" finished-at="2025-07-23T10:17:24 EDT" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechElementButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechPortalCareerBtnTest@2925bf5b]" started-at="2025-07-23T10:17:24 EDT" name="tearDown" finished-at="2025-07-23T10:17:24 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- axeFirst.tests.Agile1TechPortalCareerBtnTest -->
+      <class name="axeFirst.tests.Agile1TechEntireTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechEntireTest@6150c3ec]" started-at="2025-07-23T10:17:15 EDT" name="setUp" finished-at="2025-07-23T10:17:16 EDT" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1Tech(java.lang.String,java.lang.String)[pri:0, instance:axeFirst.tests.Agile1TechEntireTest@6150c3ec]" started-at="2025-07-23T10:17:16 EDT" name="testResultsOnAgile1Tech" data-provider="getData" finished-at="2025-07-23T10:17:17 EDT" duration-ms="775" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.agile1tech.com/career]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YahooTest]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Found 3 accessibility violations:
+1) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+  a) ["h3"]
+    Fix any of the following:
+      Heading order invalid
+
+
+2) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [".img-fluid"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+3) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) ["a[href$=\"www.agile1tech.com\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+ expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Found 3 accessibility violations:
+1) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+  a) ["h3"]
+    Fix any of the following:
+      Heading order invalid
+
+
+2) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [".img-fluid"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+3) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) ["a[href$=\"www.agile1tech.com\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+ expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at axeFirst.tests.Agile1TechEntireTest.testResultsOnAgile1Tech(Agile1TechEntireTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[#AXE.report(violations)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1Tech -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechEntireTest@6150c3ec]" started-at="2025-07-23T10:17:17 EDT" name="tearDown" finished-at="2025-07-23T10:17:17 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechEntireTest@6150c3ec]" started-at="2025-07-23T10:17:17 EDT" name="setUp" finished-at="2025-07-23T10:17:18 EDT" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1Tech(java.lang.String,java.lang.String)[pri:0, instance:axeFirst.tests.Agile1TechEntireTest@6150c3ec]" started-at="2025-07-23T10:17:18 EDT" name="testResultsOnAgile1Tech" data-provider="getData" finished-at="2025-07-23T10:17:19 EDT" duration-ms="1320" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.agile1tech.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Agile1TechCorporateTest]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Found 7 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) ["iframe[title=\"reCAPTCHA\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) ARIA attributes must conform to valid names: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr?application=axeAPI
+  a) ["iframe[width=\"\\31 00\\%\"]","div[aria-label=\"Map\"]"]
+    Fix any of the following:
+      Invalid ARIA attribute name: aria-roledescription
+
+
+3) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI
+  a) ["#main > section:nth-child(1)"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+4) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) ["iframe[width=\"\\31 00\\%\"]"]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) <html> element must have a lang attribute: https://dequeuniversity.com/rules/axe/3.1/html-has-lang?application=axeAPI
+  a) ["iframe[width=\"\\31 00\\%\"]","html"]
+    Fix any of the following:
+      The <html> element does not have a lang attribute
+
+
+6) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) ["a[href$=\"www.agile1tech.com\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+7) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Found 7 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) ["iframe[title=\"reCAPTCHA\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) ARIA attributes must conform to valid names: https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr?application=axeAPI
+  a) ["iframe[width=\"\\31 00\\%\"]","div[aria-label=\"Map\"]"]
+    Fix any of the following:
+      Invalid ARIA attribute name: aria-roledescription
+
+
+3) id attribute value must be unique: https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI
+  a) ["#main > section:nth-child(1)"]
+    Fix any of the following:
+      Document has multiple static elements with the same id attribute
+
+
+4) Frames must have title attribute: https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI
+  a) ["iframe[width=\"\\31 00\\%\"]"]
+    Fix any of the following:
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+5) <html> element must have a lang attribute: https://dequeuniversity.com/rules/axe/3.1/html-has-lang?application=axeAPI
+  a) ["iframe[width=\"\\31 00\\%\"]","html"]
+    Fix any of the following:
+      The <html> element does not have a lang attribute
+
+
+6) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) ["a[href$=\"www.agile1tech.com\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+7) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at axeFirst.tests.Agile1TechEntireTest.testResultsOnAgile1Tech(Agile1TechEntireTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[#AXE.report(violations)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1Tech -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechEntireTest@6150c3ec]" started-at="2025-07-23T10:17:19 EDT" name="tearDown" finished-at="2025-07-23T10:17:19 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- axeFirst.tests.Agile1TechEntireTest -->
+      <class name="axeFirst.tests.Agile1TechCorporateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechCorporateTest@710f4dc7]" started-at="2025-07-23T10:17:24 EDT" name="setUp" finished-at="2025-07-23T10:17:25 EDT" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechElementLink()[pri:0, instance:axeFirst.tests.Agile1TechCorporateTest@710f4dc7]" started-at="2025-07-23T10:17:25 EDT" name="testResultsOnAgile1TechElementLink" finished-at="2025-07-23T10:17:26 EDT" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechElementLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechCorporateTest@710f4dc7]" started-at="2025-07-23T10:17:26 EDT" name="tearDown" finished-at="2025-07-23T10:17:27 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- axeFirst.tests.Agile1TechCorporateTest -->
+      <class name="axeFirst.tests.Agile1TechTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@45c7e403]" started-at="2025-07-23T10:17:19 EDT" name="setUp" finished-at="2025-07-23T10:17:20 EDT" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechTitle(java.lang.String,java.lang.String)[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@45c7e403]" started-at="2025-07-23T10:17:20 EDT" name="testResultsOnAgile1TechTitle" data-provider="getData" finished-at="2025-07-23T10:17:21 EDT" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.agile1tech.com/career]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YahooTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@45c7e403]" started-at="2025-07-23T10:17:21 EDT" name="tearDown" finished-at="2025-07-23T10:17:21 EDT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@45c7e403]" started-at="2025-07-23T10:17:21 EDT" name="setUp" finished-at="2025-07-23T10:17:22 EDT" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResultsOnAgile1TechTitle(java.lang.String,java.lang.String)[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@45c7e403]" started-at="2025-07-23T10:17:22 EDT" name="testResultsOnAgile1TechTitle" data-provider="getData" finished-at="2025-07-23T10:17:23 EDT" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.agile1tech.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Agile1TechCorporateTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResultsOnAgile1TechTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:axeFirst.tests.Agile1TechTitleTest@45c7e403]" started-at="2025-07-23T10:17:23 EDT" name="tearDown" finished-at="2025-07-23T10:17:23 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- axeFirst.tests.Agile1TechTitleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
