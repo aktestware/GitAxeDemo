@@ -37,6 +37,7 @@ public class Agile1TechEntireTest extends BaseTest {
 	
 	//Testing if entire web pages is accessible or not
 	@Test (dataProvider="getData")
+	//It is testing for GitHubHook
 	public void testResultsOnAgile1Tech(String url, String testName) {
 		driver.get(url);
 		JSONObject responseJson = new AXE.Builder(driver, scriptURL).analyze(); 
