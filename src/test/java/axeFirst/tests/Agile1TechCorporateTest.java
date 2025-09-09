@@ -31,7 +31,7 @@ public class Agile1TechCorporateTest extends BaseTest {
 	//Testing if the about us link element of second web page corporate is accessible or not
 		@Test
 		public void testResultsOnAgile1TechElementLink() throws IOException {
-			
+			//Testing
 			driver.get(getCorporateURL());
 //			driver.get("https://www.agile1tech.com/");
 //			JSONObject responseJson = new AXE.Builder(driver, scriptURL)
