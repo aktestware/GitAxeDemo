@@ -35,6 +35,7 @@ public class Agile1TechEntireTest extends BaseTest {
 		driver = initializeBrowser();
 	}
 	// Testing
+	// Testing 2
 	//Testing if entire web pages is accessible or not
 	@Test (dataProvider="getData")
 	//It is testing for GitHubHook
