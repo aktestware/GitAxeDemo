@@ -36,6 +36,7 @@ public class Agile1TechEntireTest extends BaseTest {
 	}
 	// Testing
 	// Testing 2
+	// Testing 3
 	//Testing if entire web pages is accessible or not
 	@Test (dataProvider="getData")
 	//It is testing for GitHubHook
